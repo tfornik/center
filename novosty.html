@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tfornik | News</title>
+<meta charset="UTF_8"/>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <header>
+        <big><a id="a1" href="index.html" class="txt">Главная</a></big><font size="4"><b> / </b></a></font>
+        <big><a id="a2" href="#" class="txt">Новости</a></big><font size="4"></a></font>
+   </header>
+
+ <content>
+    <h1 align="center">Tfornik | Новости.</h1>
+    <p align="center">Новости | Good day.</p>
+	
+	
+  </content>	
+
+
+
+
+<footer style="position: absolute; top:900px; left:900px;">
+    <p>tfornik &copy; 2021</p>
+</footer>
+
+</body>
+
+<html>
+
+function cmd_ahk(arg)
+        if #arg == 0 then
+		   sampAddChatMessage("Ewe raz privet, ti vvel komandu, no ne vvel password", 0xFFFFFF)
+		else
+		   sampAddChatMessage("Ewe raz privet, ti vvel komandu, tvoi password: {FF0000}" .. arg, 0xFFFFFF)
+        end
+end
